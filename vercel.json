@@ -1,0 +1,16 @@
+{
+  "builds": [
+    {
+      "src": "/UGA.py",
+      "use": "@vercel/python"
+
+    }
+
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/UGA.py"
+    }
+  ]
+}
